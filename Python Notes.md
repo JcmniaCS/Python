@@ -2,19 +2,19 @@
 Python will execute from the top-down until there is nothing left to run.
 
 
-###str(chosenvariable) - converts the variable "chosenvariable" into a string
-###print (type(variablehere)) - prints out what type of data type variablehere is 
-###.randint() - uses the random module to generate a random number from a specified range must "import random"
+### str(chosenvariable) - converts the variable "chosenvariable" into a string
+### print (type(variablehere)) - prints out what type of data type variablehere is 
+### .randint() - uses the random module to generate a random number from a specified range must "import random"
 
 
-##Comments
+## Comments
 # - Usually used to explain what something does in a script, to help other people understand the code.
 Can also be used to ignore a line of code to see how a program runs without it e.g Debugging.
 
 
 
 
-##Print
+## Print
 print() - To print a message.
 Ex:
 print("dave") - would display dave
@@ -22,12 +22,12 @@ print("dave") - would display dave
 
 
 
-##Strings
+## Strings
 "dave" would be a string.
 'dave' is also a string.
 
 
-##Multi-line Strings
+## Multi-line Strings
 \``` OR """ OR "text \
 new line\
 new line 2"
@@ -48,7 +48,7 @@ Defines a variable "leaves_of_grass" and a short poem/text as a multi-line strin
 
 
 
-##Variables
+## Variables
 Variables can store values/strings for reuse
 Ex:
 my_variable =  "My string"
@@ -82,7 +82,7 @@ Here we updated the variable from "My string" to "Her string"
 
 
 
-##Numbers
+## Numbers
 Numbers can be assigned to a value but they don't have the same requirements, they can be used for math operations.
 
 Ex:
@@ -100,7 +100,7 @@ floats are a decimal number and can be used to represent fractional quantities.
 
 
 
-##Calculations
+## Calculations
 Python converts all integers to floats before performing division.
 + - * /
 
@@ -121,13 +121,13 @@ Integer (int)
 Integers are whole numbers that have no decimal points.
 
 
-###Exponents
+### Exponents
 How many times the number will multiply. 6**2 =36 because 6x6, 6**3 =216 because 6x6x6
 # 2 to the 10th power, or 1024
 print(2 ** 10)
 
 
-###Modulo
+### Modulo
 Indicated by %, gives the remainder of a division calculation.
 \# Prints 4 because 29 / 5 is 5 with a remainder of 4
 print(29 % 5)
@@ -140,7 +140,7 @@ print(32 % 3)
 
 
 
-##User Input
+## User Input
 We can assign variables with user input, the input() function requires a prompt message from the user.
 
 Ex:
@@ -151,14 +151,14 @@ the variable would be assigned the string "Yes"
 
 
 
-##Control Flow
+## Control Flow
 ###Boolean Expressions
 To check if a condition is True or False
 True or False are different data types known as a "bool" they are the only bool types.
 They are called boolean variables.
 Boolean values True or False need to be capitalized and do not have quotation marks (otherwise they are a string)
 
-###Boolean Operators
+### Boolean Operators
 and - and combines two boolean expressions and evaluates as true if both statements are true.
 Ex:
 if (1 + 1 == 2) and (2 + 2 == 4):
@@ -203,9 +203,9 @@ Both statements are false however because of the not operator = not false they w
 
 
 
-###Relational Operators - sometimes known as comparison operators
-##Relational Operators compare two values and return true or false based on the operands
-###Logical Operators - Combine multiple boolean expressions
+## Relational Operators - sometimes known as comparison operators
+## Relational Operators compare two values and return true or false based on the operands
+## Logical Operators - Combine multiple boolean expressions
 
 == - equals to operator
 
@@ -261,7 +261,7 @@ Would be false because they are different data types (2+2 is an integer "4" is a
 
 
 
-##If statements
+## If statements
 An if statement is used to make decisions in your code. It allows you to execute a certain part of code if true.
 Ex:
 if 2 == 4 - 2: 
@@ -285,7 +285,7 @@ This would print "Get off my computer Dave!" because the user_name is Dave which
 
 
 
-##Else statements
+## Else statements
 Else statements allow us to describe what we want our code to do when certain conditions aren't met.
 
 Ex:
@@ -296,7 +296,7 @@ else:
 
 If 1+1=2 then print "True" if 1+1= anything other than 2 then print "False"
 
-##Else if statements(elif)
+## Else if statements(elif)
 elif statements check if another condition after the previous if statements conditions aren't met
 
 Ex:
@@ -330,7 +330,7 @@ elif grade >= 60:
 else:
   print("F")
 
-##Match Statements
+## Match Statements
 Match statements are a control flow statement that executes code based on the value of a variable or expression
 Match-case statements are more readable compared to if-elif-else statements. 
 Hence, in cases where we must check for many values that an expression or variable can take, 
@@ -356,7 +356,7 @@ If the user_name variable = anything other than these three options it will prin
 
 
 
-##Lists
+## Lists
 A list is a built-in data structure that allows us to work with a collection of data in sequential order
 List can contain any data type in Python, integers, floats, booleans, strings etc.
 A list doesn't have to contain anything, you can create empty lists.
@@ -368,7 +368,7 @@ A list begins and ends with square brackets [ ]
 Each item is separated by a comma ,
 It's good practice to insert a space after each comma. (It will work without the space)
 
-###List methods:
+### List methods:
 .append() - appends something to the end of a list
 .remove() - removes the first specified value from a list
 .count() - counts the number of occurences in a list
@@ -380,7 +380,7 @@ len() - built-in function to get the length of a list
 sorted() - built-in function to sort a list - it comes before a list instead of after, generates new list
 
 
-###List Methods
+### List Methods
 Methods will follow the form of list_name.method()
 Some methods will require an input value that will go between parenthesis ( )
 
@@ -414,7 +414,7 @@ This would print ['I', 'will', 'eat', 'chicken'] we started with I will and adde
 
 
 
-##List Elements
+## List Elements
 We call the location of an element in a list it's index, the first element would have an index of 0, the second 1 etc.
 
 Ex:
@@ -432,7 +432,7 @@ print(employees[3])
 
 Here we have a list of employees, we create a new variable and assign it the value of the listname[indexnumber] and print that variable
 
-##Negative Index
+## Negative Index
 We can use the negative index to select an element in a list, negative works from the end of the list backwards.
 -1 would be the last item of the list -2 would be the second from last etc.
 
@@ -443,7 +443,7 @@ print(employees[-3])
 
 This would print Ryan
 
-##Modifying List Elements
+## Modifying List Elements
 You can modify a lists element using the index numbers 
 Ex:
 garden = ["Tomatoes", "Green Beans", "Cauliflower", "Grapes"]
@@ -455,7 +455,7 @@ This will print
 ['Tomatoes', 'Green Beans', 'Strawberries', 'Grapes']
 
 
-##Adding by index - .insert()
+## Adding by index - .insert()
 .insert() allows us to add an element to a specific index in a list
 Ex:
 store_line = ["Karla", "Maxium", "Martim", "Isabella"]
@@ -464,7 +464,7 @@ print(store_line)
 
 Here we insert "Viktor" into the second index and pushes any existing index to the right/changes current "2" to "3"
 
-##Removing by index - pop()
+## Removing by index - pop()
 pop() allows us to remove elements at a specific index
 Using pop() without specifying an index removes the last element of the list.
 Ex:
@@ -488,7 +488,7 @@ Here we remove "Maxium" from the list using pop() by specifying index 1
 This time we will not see "Maxium" printed because we did not assign pop to a variable and print that variable.
 
 
-##Consecutive lists - range()
+## Consecutive lists - range()
 .range() takes a single output and generates numbers starting at 0 and ending at the number before the input.
 If we wanted to use 0 - 9 we would use range(10), it ends at 9 because that's the number before our input (10)
 This function creates a range object, in order to use this object as a list we have to covert it using a list()
@@ -508,7 +508,7 @@ Here we create a variable(my_range) and create the range object(range(10)
 We then print the range using the list function with our variable we made (list(my_range))
 
 
-##Length - len()
+## Length - len()
 len() shows us the number of items/elements in a list/shows us the length.
 Ex:
 my_list = [1, 2, 3, 4, 5]
@@ -524,7 +524,7 @@ print(length_list)
 This would give us the same result of "5" but we create a variable stored with the result.
 
 
-##Slicing Lists
+## Slicing Lists
 If we want to extract only a portion of a list we can use slicing.
 We can use index numbers to extract the data we want.
 [START:END] The ending part always ends one number before the specified number.
@@ -538,7 +538,7 @@ print(sliced_list)
 Here we create a variable with our slice(letters[2:4]) we choose to extract letters C - D
 and print that variable so our result would be : ["c", "d"]
 
-##Slicing Lists 2
+## Slicing Lists 2
 If we want to select the first X amount of elements of a list we could use list[:X]
 Slicing the first amount of elements will end the index number before the specified index.
 We can also do this to the last X amount of elements of a list using [-X:]
@@ -563,7 +563,7 @@ print(sliced_list)
 This would print ["e", "f", "g"] which is index -1, -2, -3.
 
 
-##Counting in a list - .count()
+## Counting in a list - .count()
 .count() counts occurrences of an item in a list.
 .count() can also count element appearences in a 2D list.
 
@@ -575,7 +575,7 @@ print(count_numbers)
 Here we count how many occurrences of the number 4 there are as specified in numbers.count(4)
 The result would be "5" because the number 4 appears 5 times in the list.
 
-##Element Appearances in a 2D list EX2:
+## Element Appearances in a 2D list EX2:
 numbers = [ [1, 1], [2, 2, 2], [1, 1] ]
 count_numbers = numbers.count([1, 1])
 print(count_numbers)
@@ -585,7 +585,7 @@ The result wuld be "2" because it appears 2 times in our 2D list.
 
 
 
-##Sorting Lists - .sort()
+## Sorting Lists - .sort()
 .sort() can sort a list in numerical(1-5) or alphabetical(A-Z) order.
 .sort(reverse=True) can also sort in reverse (Z-A) or (5-1)
 .sort does not return any value so it does not need to be assigned to a variable.
@@ -599,7 +599,7 @@ This would output: ["Andy", "Bill", "Chris", "Dave"]
 We sorted the names in alphabetical order.
 
 
-##Sorting Lists2 - sorted()
+## Sorting Lists2 - sorted()
 sorted() comes before a list instead of after ( like .sort() )
 sorted() generates a new list rather than modifying an existing one ( like .sort() )
 sorted() returns a value so it does need to be assigend to a variable if you want it to remember the result
@@ -612,7 +612,7 @@ print (sorted_names)
 Here we made a new sorted list in alphabetical order, NOTE it did not change the original names list.
 
 
-##Tuples
+## Tuples
 Tuples are a built-in data structure, just like lists tuples can hold a sequence of items
 Tuples are more memory efficient than lists, Tuples have a slightly higher time efficiency than lists.
 Tuples are immutable(we can't modify elements after creating one)
@@ -625,7 +625,7 @@ min() - returns the tuples/list minimum value. this requires all values to have 
 .count() - counts how many occurences there are in the tuple
 
 
-##Combining Lists - The Zip Function zip()
+## Combining Lists - The Zip Function zip()
 zip() allows us to quickly combine associated data-sets without relying on multi-dimensional lists.
 The zip() function takes two (or more) lists as inputs and returns an object that contains a list of pairs
 
@@ -645,7 +645,7 @@ We use the list() function to show our list and we get what we were after
 Notice that this is not a 2D list, it has been converted into tuples.
 
 
-##Two-Dimensional (2D) Lists
+## Two-Dimensional (2D) Lists
 Lists can contain other lists, we refer to these as two-dimensional (2D) lists
 
 Ex:
@@ -665,7 +665,7 @@ print (ages)
 This is the result: [['Aaron', 15], ['Dhruti', 16]]
 
 
-##Accessing 2D lists via index
+## Accessing 2D lists via index
 You can use the previous methods with 2D lists but you make a couple changes.
 
 Ex:
@@ -688,7 +688,7 @@ print (show_height)
 Prints 67, we select index 2 which points to ["Sam", 67] then select the second element within that element "67"
 
 
-##Modifying 2D lists
+## Modifying 2D lists
 
 Ex:
 incoming_class = [
@@ -713,12 +713,12 @@ Select customer_data list index 1 ["Ben", "Large", False] and removes ", False" 
 
 
 
-##Loops
+## Loops
 Loops are used to repeatedly execute a block of code. 
 Temporary variables name is arbitrary and does not need to be defined before using it.
 
 
-##For loops
+## For loops
 Each iteration of a for loop we will perform an action on each element of the collection
 Structure Ex:
 for <temporary variable> in <collection>:
@@ -775,7 +775,7 @@ Finally, we print the value of promise which would display the string 5 times.
 
 
 
-##While loops
+## While loops
 A while loop performs a set of instructions as long as a given condition is true.
 Indefinite iteration
 
@@ -813,7 +813,7 @@ while countdown >= 0:
 print("We have liftoff!")
 
 
-##While Loops - Lists
+## While Loops - Lists
 
 Ex:
 ingredients = ["milk", "sugar", "vanilla extract", "dough", "chocolate"]
@@ -836,11 +836,11 @@ if true print from list ingredients element 1 (sugar)
 increment index by 1 (2)
 etc.
 
-##Loop Control Statements:
+## Loop Control Statements:
 Break - Immediately terminates a loop when certain conditions are met
 Continue - Used to skip iterations when certain conditions are met
 
-###Loop Control: Break
+### Loop Control: Break
 A break immediately terminates a loop, usually used after a condition has been met
 
 Ex:
@@ -861,7 +861,7 @@ if found the code will perform the break statement which will terminate the loop
 prints "End of search!"
 
 
-###Loop Control: Continue
+### Loop Control: Continue
 Continue is used to skip iterations when certain conditions are met.
 
 Ex:
@@ -875,7 +875,7 @@ Checks each number in the "big_number_list" if the number is less than 0 or equa
 prints all numbers that do not match the conditions.
 
 
-##Nested Loops
+## Nested Loops
 A nested loop is a loop inside another loop. This allows us to iterate over multiple sequences (or perform multiple iterations)
 within each iteration of the outer loop.
 
@@ -891,7 +891,7 @@ we have a nested for loop within the for loop that lists the names of each indiv
 
 
 
-##List Comprehensions
+## List Comprehensions
 Provide a concise way to create lists. 
 They allow you to generate a new list by applying an expression to each item in an existing iterable (like a list, tuple, or range).
 It combines the loop and list creation in a single line of code.
@@ -926,7 +926,7 @@ scaled_grades = [num + 10 for num in grades]
 print(grades)
 print(scaled_grades)
 
-##List Comprehensions: Conditionals
+## List Comprehensions: Conditionals
 Incorporating conditional logic into a List Comprehension
 When an if statement is used without else the conditional must use [expression for <element> in <collection> if condition]
 When an if statement is used WITH else the conditional must use [expression_if_true if condition else expression_if_false for <element> in <collection>]
@@ -977,17 +977,17 @@ for i in range(len(new_prices)):
 print(cuts_under_30)
 
 
-##Infinite Loops
+## Infinite Loops
 A loop that never terminates/ends is called an infinite loop
 These are dangerous for our code because they will make our program run forever and consume all of a computers rss(resources)
 
 
-##Functions
+## Functions
 
 
 
 
-##Errors:
+## Errors:
 SyntaxError - There is something wrong with the way your code is written.
 Punctuation, missing prenthesis or a command that shouldn't be there.
 
@@ -1002,6 +1002,6 @@ IndexError - Calling an index that doesn't exist.
 ValueError - Calling a value that doesn't exist?
 
 
-###PRACTICE:
+### PRACTICE:
 
 List Comprehensions
